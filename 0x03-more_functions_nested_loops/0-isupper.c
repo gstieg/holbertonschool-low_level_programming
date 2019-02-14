@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- * int_isupper - checks for uppercase
+ * _isupper - checks for uppercase
  *
  * @c: input value
  *
