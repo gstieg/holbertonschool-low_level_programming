@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- * print_most_numbers - skip numbers 2 and 4
+ * print_most_numbers - omit numbers 2 and 4
  *
  */
 void print_most_numbers(void)
@@ -10,6 +10,6 @@ void print_most_numbers(void)
 
 	for (t = 0; t < 10; t++)
 		if (!(t == 2 || t == 4))
-			_putchar(n + '0');
+			_putchar(t + '0');
 	_putchar('\n');
 }
