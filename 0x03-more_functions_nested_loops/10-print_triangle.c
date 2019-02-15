@@ -1,13 +1,13 @@
 #include "holberton.h"
 
 /**
- * print_triangles - prints a triangle
+ * print_triangle - prints a triangle
  *
  * @size: size
  */
 void print_triangle(int size)
 {
-	int a,b;
+	int a, b;
 
 	if (size > 0)
 	{
