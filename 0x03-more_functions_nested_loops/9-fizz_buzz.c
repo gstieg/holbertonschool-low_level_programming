@@ -11,9 +11,9 @@ int main(void)
 
 	for (p = 1; p <= 100; p++)
 	{
-		if (p % 3 == 0 && p % 15 !=0)
+		if (p % 3 == 0 && p % 15 != 0)
 			printf("Fizz");
-		else if (p % 5 == 0 && p % 15 !=0)
+		else if (p % 5 == 0 && p % 15 != 0)
 			printf("Buzz");
 		else if (p % 15 == 0)
 			printf("FizzBuzz");
