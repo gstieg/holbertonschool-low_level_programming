@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- * reset - changes to 98
+ * reset_to_98 - changes to 98
  *
  * @n: value of input
  */
