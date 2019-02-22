@@ -1,13 +1,13 @@
 #include "holberton.h"
 
 /**
- * char_string - captitalizes all words in string
+ * cap_string - captitalizes all words in string
  *
  * @str: input
  *
  * Return: String
  */
-char *cap_string(char *)
+char *cap_string(char *str)
 {
 	int count = 0;
 
@@ -16,10 +16,10 @@ char *cap_string(char *)
 		if (count == 0)
 			if (str[count] >= 'a' && str[count] <= 'z')
 				str[count] = str[count] - 32;
-		if (str[count] == ' '||
+		if (str[count] == ' ' ||
 		    str[count] == '\t' ||
 		    str[count] == '\n' ||
-		    str{count] == ',' ||
+		    str[count] == ',' ||
 		    str[count] == ';' ||
 		    str[count] == '.' ||
 		    str[count] == '!' ||
