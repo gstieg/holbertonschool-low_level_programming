@@ -5,7 +5,7 @@
  *
  * @s: input pointer
  *
- * @accept; input
+ * @accept; accept pointer
  *
  * Return: s
  */
