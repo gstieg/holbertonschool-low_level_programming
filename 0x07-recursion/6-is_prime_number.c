@@ -3,7 +3,7 @@
 /**
  * recursion - make the recursion work
  *
- * @n; input number
+ * @n: input number
  *
  * @div: divide
  *
