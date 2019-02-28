@@ -9,7 +9,7 @@
  *
  * Return: prime number
  */
-int recursion(int n, int div))
+int recursion(int n, int div)
 {
 	if (div < 0)
 		return (-1);
