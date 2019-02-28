@@ -3,13 +3,13 @@
 /**
  * recursion - make the recursion work
  *
- * @n; input
+ * @n; input number
  *
  * @div: divide
  *
  * Return: prime number
  */
-int recursion(int n, int div)
+int recursion(int n, int div))
 {
 	if (div < 0)
 		return (-1);
@@ -32,7 +32,7 @@ int recursion(int n, int div)
  */
 int is_prime_number(int n)
 {
-	int div = n -1;
+	int div = n - 1;
 
 	if (recursion(n, div) == 1)
 		return (1);
