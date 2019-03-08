@@ -8,7 +8,7 @@
  *
  * @max: maximum
  *
- * @Return: pointer
+ * Return: pointer
  */
 int *array_range(int min, int max)
 {
