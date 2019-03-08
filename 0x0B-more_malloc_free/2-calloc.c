@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * -memset - fills memory
+ * _memset - fills memory
  *
  * @s: input
  *
@@ -12,15 +12,15 @@
  *
  * Return: s
  */
-char *_memset(char *a, char b, unsigned int n)
+char *_memset(char *s, char b, unsigned int n)
 {
 	unsigned int count;
 
 	for (count = 0; count < n; count++)
 	{
-		a[count] = b;
+		s[count] = b;
 	}
-	return (a);
+	return (s);
 }
 
 /**
@@ -38,12 +38,12 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 
 	if (nmemb == 0 || size == 0)
 		return (NULL);
-	o = malloc(size *nmemb);
+	o = malloc(size * nmemb);
 	if (o == NULL)
 	{
 		free(o);
 		return (NULL);
 	}
-	_memset((void*)o, 0, nmemb * size);
+	_memset((void *)o, 0, nmemb * size);
 	return (o);
 }
