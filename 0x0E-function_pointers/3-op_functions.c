@@ -21,7 +21,7 @@ int op_add(int a, int b)
  *
  * @b: integer
  *
- * Result: result
+ * Return: result
  */
 int op_sub(int a, int b)
 {
