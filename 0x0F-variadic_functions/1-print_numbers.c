@@ -4,14 +4,14 @@
 
 /**
  * print_numbers - prints numbers
- * @seprator: input value
+ * @separator: input value
  *
  * @n: char
  */
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
 	va_list list;
-        unsigned int a;
+	unsigned int a;
 	int b = 0;
 
 	va_start(list, n);
