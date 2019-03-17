@@ -3,7 +3,7 @@
 #include <stdarg.h>
 
 /**
- * struct - format
+ * struct form - format
  *
  * @c: char of format
  *
