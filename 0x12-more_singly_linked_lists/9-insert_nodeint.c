@@ -3,7 +3,7 @@
 /**
  * insert_nodeint_at_index - insert a new node
  *
- * @head input of head
+ * @head: input of head
  *
  * @idx: index
  *

@@ -1,7 +1,7 @@
 #include "more_lists.h"
 
 /**
- * sum_lsitint - sum all int
+ * sum_listint - sum all int
  *
  * @head: input
  *

@@ -3,7 +3,7 @@
 /**
  * add_nodeint_end - add new node to the end
  *
- * @head - intput for head
+ * @head: intput for head
  *
  * @n: input int
  *
