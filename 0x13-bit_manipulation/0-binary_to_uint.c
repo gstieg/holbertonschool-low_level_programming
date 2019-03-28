@@ -1,9 +1,9 @@
 #include "holberton.h"
 
 /**
- * binary_to_unit - convert to binary
+ * binary_to_uint - convert to binary
  *
- * @b:  input for binary
+ * @b: input for binary
  *
  * Return: the converted number of binary
  */
