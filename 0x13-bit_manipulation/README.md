@@ -43,6 +43,8 @@ compilation. Our main.c files might be different from the one shown in the examp
 
 
 **Quiz Questions**
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 **0. What is 0x89 in base10?**
    
