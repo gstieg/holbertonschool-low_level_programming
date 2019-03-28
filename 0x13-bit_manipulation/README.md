@@ -45,33 +45,43 @@ compilation. Our main.c files might be different from the one shown in the examp
 **Quiz Questions**
 
 **0. What is 0x89 in base10?**
+   
    * 137
 
 **1. What is 0x89 in base2?**
+   
    * 0b10001001
 
 **2. What is 0b001010010 in base10?**
+   
    * 82
 
 **3. What is 0b01101101 in base16?**
+   
    * 0x6D
 
 **4. What is 98 in base2?**
+   
    * 0b01100010
 
 **5. What is 98 in base16?**
+   
    * 0x62
 
 **6. 0x01 & 0x01 = ?**
+   
    * 0x01
 
 **7. 0x01 | 0x01 = ?**
+   
    * 0x01
 
 **8. 0x01 & 0x00 = ?**
+   
    * 0x00
 
 **9. 0x01 | 0x00 = ?**
+   
    * 0x01
 
 **10. 0x66 & 0x22 = ?**
