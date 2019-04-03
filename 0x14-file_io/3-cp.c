@@ -1,11 +1,13 @@
 #include "holberton.h"
 
 /**
- * main - copy the file
+ * main - copy
  *
- * @argc: arguments
+ * @argc: input for agruments
  *
- * @argv: pointer for strings
+ * @argv: input of strings
+ *
+ * Return: 0
  */
 int main(int argc, char *argv[])
 {
@@ -26,7 +28,7 @@ int main(int argc, char *argv[])
 	ab2 = open(argv[2], O_CREAT | O_WRONLY | O_TRUNC, 0664);
 	if (ab2 == -1)
 	{
-		dprintf(STDERR_FILENO, "Error: Can't write %s\n", argv[2]);
+		dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[2]);
 		exit(99);
 	}
 	while ((check = read(ab1, call, 1024)) > 0)
@@ -39,7 +41,7 @@ int main(int argc, char *argv[])
 		check = write(ab2, call, check);
 		if (check == -1)
 		{
-			dprintf(STDERR_FILENO, "Error: Can't wite to %s\n", argv[2]);
+			dprintf(STDERR_FILENO, "Error:Can't write to %s\n", argv[2]);
 			exit(99);
 		}
 	}
@@ -55,7 +57,7 @@ int main(int argc, char *argv[])
 	}
 	if (close(ab2) == -1)
 	{
-		dprintf(STDERR_FILENO, "Error: Can't closeab %d\n", ab2);
+		dprintf(STDERR_FILENO, "Error: Can't close ab %d\n", ab2);
 		exit(100);
 	}
 	return (0);
