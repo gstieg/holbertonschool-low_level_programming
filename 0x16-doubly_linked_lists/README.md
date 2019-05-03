@@ -1,6 +1,6 @@
 # **0x16. C - Doubly linked lists**
 
-![Doubly Linked Lists](https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiJhauD-P_hAhXri1QKHV2YC2wQjRx6BAgBEAU&url=https%3A%2F%2Fwww.geeksforgeeks.org%2Fdoubly-linked-list%2F&psig=AOvVaw2C3NN-C5I7rQQJUCxaezZA&ust=1556992723300460)
+! [Doubly Linked Lists](https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiJhauD-P_hAhXri1QKHV2YC2wQjRx6BAgBEAU&url=https%3A%2F%2Fwww.geeksforgeeks.org%2Fdoubly-linked-list%2F&psig=AOvVaw2C3NN-C5I7rQQJUCxaezZA&ust=1556992723300460)
 
 
 
@@ -28,5 +28,3 @@ General:
 	* The prototypes of all your functions should be included in your header file called lists.h
 	* Don’t forget to push your header file
 	* All your header files should be include guarded
-
-![Doubly Linked Lists](https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiJhauD-P_hAhXri1QKHV2YC2wQjRx6BAgBEAU&url=https%3A%2F%2Fwww.geeksforgeeks.org%2Fdoubly-linked-list%2F&psig=AOvVaw2C3NN-C5I7rQQJUCxaezZA&ust=1556992723300460)
