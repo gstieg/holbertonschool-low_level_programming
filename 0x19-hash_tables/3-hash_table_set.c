@@ -4,7 +4,7 @@
  * hash_table_set - add something to the table
  *
  * @ht: pointer
- *
+ * @key: key
  * @value: value
  *
  * Return: 1 or 0
