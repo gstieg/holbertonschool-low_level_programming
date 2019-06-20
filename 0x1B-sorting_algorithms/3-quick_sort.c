@@ -1,12 +1,13 @@
 #include "sort.h"
 /**
- * swap: swap the values
- * @a - a value
- * @b - b value
+ * swap - swap the values
+ * @a: a value
+ * @b: b value
  */
 void swap(int *a, int *b)
 {
 	int tmp;
+
 	tmp = *a;
 	*b = tmp;
 	*b = *a;
@@ -18,32 +19,34 @@ void swap(int *a, int *b)
  */
 void quick_sort(int *array, size_t size)
 {
-	if(size < 2)
+	if (!array || size < 2)
 		return;
-	real_sort(array, 0, size -1, size);
+	real_sort(array, 0, size - 1, size);
 }
 
 /**
  * real_sort - real sort function for quick sort
- * @array - array
- * @first -  first
- * @last - last
+ * @array: array
+ * @first:  first
+ * @last: last
+ * @size: size of array
  */
 void real_sort(int *array, int first, int last, size_t size)
 {
 	int pivot, c, d;
-	if(first < last)
+
+	if (first < last)
 	{
 		pivot = first;
 		c = first;
 		d = last;
-		while(c < d)
+		while (c < d)
 		{
-			while(array[c] <= array[pivot] && c < last)
+			while (array[c] <= array[pivot] && c < last)
 				c++;
-			while(array[d] > array[pivot])
+			while (array[d] > array[pivot])
 				d--;
-			if(c < d)
+			if (c < d)
 			{
 				swap(&array[c], &array[d]);
 			}
