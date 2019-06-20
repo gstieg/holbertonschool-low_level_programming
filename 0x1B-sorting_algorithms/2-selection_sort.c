@@ -1,7 +1,7 @@
 #include "sort.h"
 
 /**
- * selction_sort - uses the selection method to sort a doubly linked list
+ * selection_sort - uses the selection method to sort a doubly linked list
  * @array: a pointer to the first element in the array
  * @size: number of elemnts in the array
  *
