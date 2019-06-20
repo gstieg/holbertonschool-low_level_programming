@@ -3,32 +3,30 @@
 /**
  * bubble_sort - sorts an array of integers in ascending order using the Bubble
  sort algorithm
- *
  * @array: array
- *
- * @size: size of array
+ * @size: size of the array
  */
 void bubble_sort(int *array, size_t size)
 {
 	size_t a;
-	int new = 1;
+	int bubble = 0, b = 1;
 
 	if (size < 2)
 		return;
-	while (new == 1)
+	while (b == 1)
 	{
-		a = 0;
-		while (a < size - 1)
+		b = 0;
+
+		for (a = 1; a < size; a++)
 		{
 			if (array[a] > array[a + 1])
 			{
-				new = array[a];
+				bubble = array[a];
 				array[a] = array[a + 1];
-				array[a + 1] = new;
-				a = 1;
+				array[a + 1] = bubble;
 				print_array(array, size);
+				b = 1;
 			}
-			a++;
 		}
 	}
 }
