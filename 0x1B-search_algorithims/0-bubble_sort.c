@@ -3,8 +3,8 @@
 /**
  * bubble_sort - using the bubble sort method
  *
- * @array - array
- * @size - size of the array
+ * @array: array
+ * @size: size of the array
  */
 void bubble_sort(int *array, size_t size)
 {
@@ -13,16 +13,15 @@ void bubble_sort(int *array, size_t size)
 
 	for (a = size; a >= 1; a--)
 	{
-
 		for (i = 1 ; size > i; i++)
 		{
-				if (array[i] < array[i - 1])
-				{
-					temp = array[i - 1];
-					array[i - 1] = array[i];
-					print_array(array, size);
-					array[i] = temp;
-				}
+			if (array[i] < array[i - 1])
+			{
+				temp = array[i - 1];
+				array[i - 1] = array[i];
+				print_array(array, size);
+				array[i] = temp;
+			}
 		}
 	}
 }
