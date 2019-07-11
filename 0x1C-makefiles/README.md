@@ -1,3 +1,5 @@
+![MAKE FILE GIF}(makefilesgiphy.gif)
+
 # **0x1C. C - Makefiles**
 
 **Read or watch:**
