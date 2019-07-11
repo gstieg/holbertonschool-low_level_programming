@@ -1,4 +1,4 @@
-![MAKE FILE GIF}(makefilesgiphy.gif)
+![MAKE FILE GIF](makefilesgiphy.gif)
 
 # **0x1C. C - Makefiles**
 
