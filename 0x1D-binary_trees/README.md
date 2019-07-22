@@ -2,7 +2,7 @@
 
 ![Binary tree](https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Sorted_binary_tree.svg/1280px-Sorted_binary_tree.svg.png)
 
-#**Resources**
+# **Resources**
 
 **Read or watch:**
 
