@@ -5,7 +5,8 @@
 **Read or watch:**
 
        - Everything you need to know to start with C (You do not have to learn everything in there yet, but make sure you read it entirely first)
-Dennis Ritchie
+       Dennis Ritchie
+
        - “C” Programming Language: Brian Kernighan
        - Why C Programming Is Awesome
        - Learning to program in C part 1
