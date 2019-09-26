@@ -1,1 +1,23 @@
-File README.me for 0x0-hello_world
+# **0x00 hello, world **
+
+# **Resources**
+
+**Read or watch:**
+
+       - Everything you need to know to start with C (You do not have to learn everything in there yet, but make sure you read it entirely first)
+Dennis Ritchie
+       - “C” Programming Language: Brian Kernighan
+       - Why C Programming Is Awesome
+       - Learning to program in C part 1
+       - Learning to program in C part 2
+       - Understanding C program Compilation Process
+       - Holberton’s Betty Coding Style
+       - Hash-bang under the hood (Look at only after you finish consuming the other resources)
+       - Linus Torvalds on C vs. C++ (Look at only after you finish consuming the other resources)
+
+# **man or help:**
+
+       - gcc
+       - printf (3)
+       - puts
+       - putchar
